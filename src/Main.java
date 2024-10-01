@@ -21,11 +21,11 @@ public class Main {
 
         System.out.println("Digite um numero a ser Calculado");
 
-            n1 = sc.nextInt();
+        n1 = sc.nextInt();
 
         System.out.println("Digite outro numero a ser Calculado");
 
-            n2 = sc.nextInt();
+        n2 = sc.nextInt();
 
 //        System.out.println("Digite o Valor do produto");
 //
@@ -36,22 +36,22 @@ public class Main {
 //        porcentagemDesconto = sc.nextDouble();
 
 
-          System.out.println("Resultado da Soma: " + Soma(n1, n2));
-          System.out.println("Resultado da Subtracao: " + Subtração(n1, n2));
-          System.out.println("Resultado da Multiplicacao: " + Multiplicação(n1, n2));
-          System.out.println("Resultado da Divisao: " + Divisão(n1, n2));
-          System.out.println("Resultado do Resto: " + Resto(n1, n2));
+        System.out.println("Resultado da Soma: " + Soma(n1, n2));
+        System.out.println("Resultado da Subtracao: " + Subtração(n1, n2));
+        System.out.println("Resultado da Multiplicacao: " + Multiplicação(n1, n2));
+        System.out.println("Resultado da Divisao: " + Divisão(n1, n2));
+        System.out.println("Resultado do Resto: " + Resto(n1, n2));
 //          System.out.println(PorcentagemDeProduto(valorProduto, porcentagemDesconto));
-          sc.close();
+        sc.close();
 
     }
 
     /**
-    *Essa Função é responsavel por retornar a Soma de dois numeros inteiros.
+     *Essa Função é responsavel por retornar a Soma de dois numeros inteiros.
      *@param n1 Primeiro numero inteiro.
-    * @param n2 Segundo numero inteiro.
+     * @param n2 Segundo numero inteiro.
      * @return retorna a Soma dos numero inteiros.
-    *
+     *
      */
     public static int Soma(int n1, int n2){
         return n1 + n2;
