@@ -1,11 +1,17 @@
 import java.util.Scanner;
 
 public class Soma {
+    /**
+     *Essa Função é responsavel por Calcular a soma de A + B e se A resposta for menor que C printar no console que o resultado é menor que C.
+     * Primeiro numero inteiro.
+     * Segundo numero inteiro.
+     * Numero de comparação com o resultado de A + B
+     * @return Essa função retorna se o resultado de A + B é maior ou menor que C.
+     *
+     */
     public static void main (String[] args) {
             int a, b;
             int c;
-
-            int ResultadoAB;
 
             Scanner sc = new Scanner(System.in);
 

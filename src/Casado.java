@@ -1,6 +1,14 @@
 import java.util.Scanner;
 
 public class Casado {
+    /**
+     *Essa Função é responsavel por Perguntar ao usuário: Nome, Sexo, Casado. Se o usuário for casado a função perguntará quanto tempo de casado.
+     *variavel tipo string 'nome' Responsável por armazenar o nome do usuário.
+     *variavel tipo string 'sexo' Responsável por armazenar o sexo do usuário.
+     *variavel booleana 'casado' Responsavel por rodar IF.
+     *variavel inteira tempoCasado Responsavel por armazenar o tempo que o usuário está casado.
+     *@return Essa função retorna se o resultado de A + B é maior ou menor que C.
+     */
     public static void main (String[] args) {
         String nome, sexo;
         int tempoCasado;
